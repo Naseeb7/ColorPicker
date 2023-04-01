@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 5px;
+}
+.changeBackground{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.changePallete{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+button{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(184, 238, 206);
+    outline: 1px solid black;
+    border: none;
+    border-radius: 5px;
+}
+.colorBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid black;
+    height: 20rem;
+    margin: 5px;
+    padding: 5px;
+}
+.background{
+    display: flex;
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+.colorPallete{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    /* border: 2px solid yellow; */
+}

@@ -1,0 +1,44 @@
+// Backgrounds
+Italianmarble=()=>{
+    document.getElementById("background").style.backgroundColor="#b1aaa0"
+}
+tailwind=()=>{
+    document.getElementById("background").style.backgroundColor="#bdb8b4"
+}
+HazelCream=()=>{
+    document.getElementById("background").style.backgroundColor="#847d73"
+}
+Sailaway=()=>{
+    document.getElementById("background").style.backgroundColor="#abb1a7"
+}
+DogwoodBlossom=()=>{
+    document.getElementById("background").style.backgroundColor="#9f7a81"
+}
+white=()=>{
+    document.getElementById("background").style.backgroundColor="white"
+}
+Mint=()=>{
+    document.getElementById("background").style.backgroundColor="#ADEFD1FF"
+}
+Silver=()=>{
+    document.getElementById("background").style.backgroundColor="#A2A2A1FF"
+}
+// Pallete
+IrishGlory=()=>{
+    document.getElementById("colorPallete").style.backgroundColor="#5d9184"
+}
+Meanderinggarden=()=>{
+    document.getElementById("colorPallete").style.backgroundColor="#78a48d"
+}
+Irisheyes=()=>{
+    document.getElementById("colorPallete").style.backgroundColor="#95b6a3"
+}
+SailorBlue=()=>{
+    document.getElementById("colorPallete").style.backgroundColor="#00203FFF"
+}
+SkyBlue=()=>{
+    document.getElementById("colorPallete").style.backgroundColor="#89ABE3FF"
+}
+TurkishSea=()=>{
+    document.getElementById("colorPallete").style.backgroundColor="#195190FF"
+}
