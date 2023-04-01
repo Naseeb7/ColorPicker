@@ -1,9 +1,23 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background: linear-gradient(to left,
+                    rgba(238, 130, 238, 0.479),
+                    rgba(76, 0, 130, 0.429),
+                    rgba(0, 0, 255, 0.411),
+                    rgba(0, 128, 0, 0.422),
+                    rgba(255, 0, 0, 0.451),
+                    rgba(255, 166, 0, 0.37));
+                    font-family: 'Inconsolata', monospace;
+}
+.title{
+    font-weight: bold;
+    font-size: large;
 }
 .buttons{
     display: flex;
@@ -12,6 +26,8 @@
     align-items: flex-start;
     margin: 5px;
     padding: 5px;
+    
+    
 }
 .changeBackground{
     display: flex;
@@ -44,10 +60,10 @@ button{
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    border: 1px solid black;
     height: 20rem;
     margin: 5px;
     padding: 5px;
+    background-color: white;
 }
 .background{
     display: flex;
@@ -59,4 +75,9 @@ button{
     width: 50%;
     justify-content: flex-end;
     /* border: 2px solid yellow; */
+}
+#clear{
+    display: flex;
+    width: 10%;
+    justify-content: center;
 }
