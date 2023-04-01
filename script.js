@@ -14,8 +14,8 @@ Sailaway=()=>{
 DogwoodBlossom=()=>{
     document.getElementById("background").style.backgroundColor="#fdc8d1"
 }
-Winterbreeze=()=>{
-    document.getElementById("background").style.backgroundColor="#fdc8d1"
+Wonderlake=()=>{
+    document.getElementById("background").style.backgroundColor="#60c6c6"
 }
 white=()=>{
     document.getElementById("background").style.backgroundColor="white"
